@@ -1,7 +1,4 @@
 
-
-
-
 // FUNCTION IMPLEMENTATION eqArrays
 const eqArrays = function(arr1, arr2) {
 
@@ -34,6 +31,29 @@ const assertArraysEqual = function(arr1, arr2) {
     
 };
 
-assertArraysEqual([1,2,3],[3,2,4])
-assertArraysEqual([0],[1])
-assertArraysEqual([1,2,3],[1,2,3])
+
+const letterPositions = function(sentence) {
+let cleanSentence = sentence.replace(/\s/g, "")
+  
+  const results = {};
+
+  for(let i = 0; i < cleanSentence.length; i++) {
+  console.log(cleanSentence[i])
+   
+   
+      if (cleanSentence[i] in results) {
+        results[cleanSentence[i]].push(i); 
+      
+      } else {
+        results[cleanSentence[i]] = [i]
+        
+      }
+    
+  }
+ 
+  
+  return results;
+};
+
+console.log(letterPositions("hello"))
+assertArraysEqual(letterPositions("hello").e, [1]);

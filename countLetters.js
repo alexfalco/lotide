@@ -36,7 +36,7 @@ const countLetters = function(str) {
       }
     
   }
-
+  
   return results
 
 }
