@@ -68,3 +68,11 @@ console.log(middle([1, 2, 3, 4]))
 module.exports = middle
 
 
+
+
+
+
+// FUNCTION IMPLEMENTATION
+const assertObjectsEqual = function(actual, expected) {
+  // Implement me!
+};
