@@ -41,4 +41,6 @@ const countLetters = function(str) {
 
 }
 
+module.exports = countLetters
+
 console.log(countLetters("sfijgg gfg g gfgdg dhyyee"))

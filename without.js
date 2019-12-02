@@ -30,3 +30,15 @@ const assertArraysEqual = function(arr1, arr2) {
     
     
 };
+
+
+
+
+
+
+
+const without = function(x) {
+  return x
+}
+
+module.exports = without
